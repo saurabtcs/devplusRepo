@@ -1,0 +1,12 @@
+package com.stest;
+
+public class MyClass { 
+
+	public int add(int a1 ,int b){
+		return a1+b;
+	}
+	
+	public String concat(String a ,String b){
+		return a+b;
+	}
+}

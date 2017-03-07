@@ -1,0 +1,21 @@
+package com.stest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MyClassTest {
+
+	@Test
+	public void addTest(){
+		MyClass obj = new MyClass();
+		assertEquals(301,obj.add(100,200));
+	}
+	
+	@Test
+	public void concatTest(){
+		MyClass obj = new MyClass();
+		assertEquals("HelloWorld2",obj.concat("Hello","World"));
+	}
+
+}
