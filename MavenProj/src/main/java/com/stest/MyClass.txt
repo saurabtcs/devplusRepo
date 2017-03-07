@@ -2,8 +2,8 @@ package com.stest;
 
 public class MyClass { 
 
-	public int add(int a12 ,int b){
-		return a12+b;
+	public int add(int a123 ,int b){
+		return a123+b;
 	}
 	
 	public String concat(String a ,String b){
